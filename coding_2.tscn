@@ -1,11 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://c0meh36cs3tll"]
+[gd_scene load_steps=4 format=3 uid="uid://c0meh36cs3tll"]
 
 [ext_resource type="Script" uid="uid://cfpdmuuh071ni" path="res://coding_2.gd" id="1_knjnh"]
 [ext_resource type="Texture2D" uid="uid://b8ajht7gn015s" path="res://icon.svg" id="2_lgwwx"]
+[ext_resource type="Script" path="res://icon.gd" id="3_lgwwx"]
 
 [node name="Coding2" type="Node2D"]
 script = ExtResource("1_knjnh")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(64, 65)
 texture = ExtResource("2_lgwwx")
-offset = Vector2(576, 324)
+
+[node name="ExerciseSprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_lgwwx")
+script = ExtResource("3_lgwwx")

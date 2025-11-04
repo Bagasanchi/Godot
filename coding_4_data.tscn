@@ -9,3 +9,7 @@ script = ExtResource("1_whwhx")
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(65, 65)
 texture = ExtResource("2_cfiwm")
+
+[node name="ExerciseSprite" type="Sprite2D" parent="."]
+position = Vector2(357, 220)
+texture = ExtResource("2_cfiwm")
